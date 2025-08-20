@@ -1,0 +1,1 @@
+pkg src/index.js --targets node18-win-x64 --output stream-overlay.exe
