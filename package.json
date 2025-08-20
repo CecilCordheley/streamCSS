@@ -1,0 +1,17 @@
+{
+  "name": "stream-overlay",
+  "version": "1.0.0",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-notifier": "^10.0.1"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*"
+    ]
+  }
+}
